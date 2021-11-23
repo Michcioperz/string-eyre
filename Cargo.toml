@@ -2,8 +2,15 @@
 name = "string-eyre"
 version = "0.1.0"
 edition = "2021"
+authors = ["Michał Sidor <public+crates@meekchopp.es>"]
+description = "Convenience traits for dealing with errors that don't want to eyre"
+repository = "https://github.com/Michcioperz/string-eyre"
+license = "MIT OR Apache-2.0"
+keywords = ["eyre"]
+categories = ["rust-patterns"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[badges]
+maintenance = { status = "experimental" }
 
 [dependencies]
 eyre = { version = "0.6.5", default-features = false }
